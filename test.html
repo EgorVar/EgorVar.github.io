@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="change__search">
+      <div class="row">
+        <div class="col-sm-4">
+          <input type="text" name="search" value="mac" placeholder="Ключевые слова" id="input-search" class="form-control">
+        </div>
+        <div class="col-sm-3">
+          <select name="category_id" class="form-control">
+            <option value="0">Все категории</option>
+            <option value="20">Компьютеры</option>
+            <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PC</option>
+            <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mac</option>
+            <option value="18">Ноутбуки</option>
+            <option value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Macs</option>
+            <option value="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows</option>
+            <option value="25">Компоненты</option>
+            <option value="32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Веб-камеры</option>
+            <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мониторы</option>
+            <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 1</option>
+            <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 2</option>
+            <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мышки</option>
+            <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Принтеры</option>
+            <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сканеры</option>
+            <option value="57">Планшеты</option>
+            <option value="17">Програмное обеспечение</option>
+            <option value="24">Телефоны и PDA</option>
+            <option value="33">Камеры</option>
+            <option value="34">MP3 Плееры</option>
+            <option value="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 11</option>
+            <option value="44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 12</option>
+            <option value="47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 15</option>
+            <option value="48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 16</option>
+            <option value="49">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 17</option>
+            <option value="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 18</option>
+            <option value="51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 19</option>
+            <option value="52">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 20</option>
+            <option value="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 25</option>
+            <option value="53">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 21</option>
+            <option value="54">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 22</option>
+            <option value="55">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 23</option>
+            <option value="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 24</option>
+            <option value="38">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 4</option>
+            <option value="37">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 5</option>
+            <option value="39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 6</option>
+            <option value="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 7</option>
+            <option value="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 8</option>
+            <option value="42">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test 9</option>
+          </select>
+        </div>
+        <div class="col-sm-3">
+          <label class="checkbox-inline">
+            <input type="checkbox" name="sub_category" value="1" disabled="">
+            Искать в подкатегориях</label>
+        </div>
+      </div>
+      <p>
+        <label class="checkbox-inline">
+        <input type="checkbox" name="description" value="1" id="description">
+        Искать в описании товара</label>
+      </p>
+      <input type="button" value="Поиск" id="button-search" class="btn bold-btn">
+      <h2>Товары, соответствующие критериям поиска</h2>
+    </div>
+  </div>
+</body>
+</html>
